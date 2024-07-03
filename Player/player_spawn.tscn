@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://kxksmx4mmtms"]
+
+[ext_resource type="Texture2D" uid="uid://cs1dj8jcsrcsx" path="res://Assets/Player/SpaceMan01.png" id="1_npo0d"]
+
+[node name="PlayerSpawn" type="Node2D"]
+
+[node name="SpaceMan01" type="Sprite2D" parent="."]
+position = Vector2(0, -64)
+texture = ExtResource("1_npo0d")

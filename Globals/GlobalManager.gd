@@ -1,0 +1,1 @@
+class_name Global_Manager extends Node

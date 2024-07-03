@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cag6ref45mc3x"]
+
+[ext_resource type="PackedScene" uid="uid://stx6tvrug57i" path="res://Levels/Areas/LunarSurface/area_ls_001.tscn" id="1_ubxg3"]
+
+[node name="List" type="Node"]
+
+[node name="Area_LS_001" parent="." instance=ExtResource("1_ubxg3")]
