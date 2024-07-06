@@ -8,7 +8,7 @@
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qucem"]
 texture = ExtResource("4_h4s5p")
 
-[node name="Base_Area" type="Node"]
+[node name="Base_Area" type="Node2D"]
 script = ExtResource("1_5dvkr")
 
 [node name="TileMap" type="TileMap" parent="."]

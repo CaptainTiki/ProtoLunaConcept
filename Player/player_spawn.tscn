@@ -1,11 +1,13 @@
 [gd_scene load_steps=3 format=3 uid="uid://kxksmx4mmtms"]
 
 [ext_resource type="Script" path="res://Player/player_spawn.gd" id="1_82js3"]
-[ext_resource type="Texture2D" uid="uid://cs1dj8jcsrcsx" path="res://Assets/Player/SpaceMan01.png" id="1_npo0d"]
+[ext_resource type="Texture2D" uid="uid://cjnwgpyusjbxc" path="res://Assets/Player/SimpleSpaceman-Sheet.png" id="2_fabpq"]
 
 [node name="PlayerSpawn" type="Node2D"]
 script = ExtResource("1_82js3")
 
 [node name="SpaceMan01" type="Sprite2D" parent="."]
-position = Vector2(0, -64)
-texture = ExtResource("1_npo0d")
+position = Vector2(0, -35)
+texture = ExtResource("2_fabpq")
+hframes = 4
+frame = 1
