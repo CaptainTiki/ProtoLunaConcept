@@ -1,7 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://cag6ref45mc3x"]
+[gd_scene load_steps=5 format=3 uid="uid://cag6ref45mc3x"]
 
 [ext_resource type="PackedScene" uid="uid://stx6tvrug57i" path="res://Levels/Areas/LunarSurface/area_ls_001.tscn" id="1_ubxg3"]
+[ext_resource type="PackedScene" uid="uid://3x665bopuk5l" path="res://Levels/Areas/LunarSurface/area_ls_002.tscn" id="2_hid0e"]
+[ext_resource type="PackedScene" uid="uid://cvg1fa8ej1251" path="res://Levels/Areas/LunarSurface/area_ls_003.tscn" id="3_72bka"]
+[ext_resource type="PackedScene" uid="uid://c677v5yxlglg1" path="res://Levels/Areas/LunarSurface/area_ls_004.tscn" id="4_mrsih"]
 
 [node name="List" type="Node"]
 
 [node name="Area_LS_001" parent="." instance=ExtResource("1_ubxg3")]
+
+[node name="Area_LS_002" parent="." instance=ExtResource("2_hid0e")]
+
+[node name="Area_LS_003" parent="." instance=ExtResource("3_72bka")]
+
+[node name="Area_LS_004" parent="." instance=ExtResource("4_mrsih")]

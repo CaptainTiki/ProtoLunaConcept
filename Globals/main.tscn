@@ -6,6 +6,5 @@
 [node name="Main" type="Node"]
 
 [node name="GlobalManager" parent="." instance=ExtResource("1_sx0w5")]
-_logging = null
 
 [node name="Level" parent="." instance=ExtResource("1_6yuce")]

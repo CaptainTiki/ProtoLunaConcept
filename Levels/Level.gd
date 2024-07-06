@@ -1,22 +1,25 @@
 class_name Level extends Node
 
-var LunarSurfaceAreaString: String = "res://Levels/Areas/LunarSurfaceAreas.tscn"
-
-
-@export_enum("LUNARSURFACE") var level_type: String = "LUNARSURFACE"
 @export var NumberOfAreasInLevel : int = 4
 
 @onready var lvl_gen: Level_Generator = $LevelGenerator
-
+const LUNAR_SURFACE_AREAS : PackedScene = preload("res://Levels/Areas/LunarSurfaceAreas.tscn")
 
 func _ready() -> void:
-	match(level_type):
-		"LUNARSURFACE":
-			level_type = LunarSurfaceAreaString
-		
-	
-	lvl_gen.load_areas(level_type)
-	lvl_gen.generate()
+	generate_level()
+
 	pass
 
-
+func generate_level() -> void:
+	#variable to hold all our connectors
+	var doors = []
+	
+	#place the root node
+	var roomList = LUNAR_SURFACE_AREAS.instantiate()
+	var i = roomList.get_child_count()
+	for count < stuff.get_child_count():
+	
+	
+	#until we reach the NumberOfAreasInLevel - continue placing areas
+	
+	pass
