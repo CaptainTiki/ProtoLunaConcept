@@ -24,6 +24,8 @@ layer_0/tile_data = PackedInt32Array(0, 65537, 1, 1, 65537, 4, 2, 65537, 4, 3, 6
 [node name="AreaConnector" type="Node2D" parent="."]
 position = Vector2(1467, 293)
 script = ExtResource("3_oja0j")
+connector_name = "right1"
+connector_type = 1
 
 [node name="Label" type="Label" parent="AreaConnector"]
 offset_left = -17.0

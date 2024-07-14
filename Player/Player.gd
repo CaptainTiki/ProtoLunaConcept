@@ -13,3 +13,5 @@ func _process(_delta: float) -> void:
 
 func _physics_process(_delta):
 	move_and_slide()
+	#prints(velocity)
+	pass
